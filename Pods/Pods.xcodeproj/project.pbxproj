@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE011292C6FE045167A19B7B5F9AFA7 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F395F48075E087E856F22367B53F6B4 /* SwiftyJSON-dummy.m */; };
+		3107645A89697DA1F8BB16A3F7732514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34FB19561D8E794FFECAA78C62039749 /* Pods-Health Monitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D91DA5D419D8C76FD2359FD812B589D1 /* Pods-Health Monitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379555D7D990319B25969C34E26972AC /* Pods-Health MonitorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CEB351D5AAAF902C307B65C3284902 /* Pods-Health MonitorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A82A6C31A7F9AEF84ECB8A509C98B62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4415FF171AB0EA36569A222CDD4F6E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4C4BB292991504434864C7181DF95A68 /* Pods-Health Monitor-Health MonitorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2686F4D03FE492D1782A986CBA1A6626 /* Pods-Health Monitor-Health MonitorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB44962DD5A4D1184F607F349FA1B9B /* Pods-Health Monitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18E106A9E875AF77CA839BF1ED352A /* Pods-Health Monitor-dummy.m */; };
+		AB1066CFBE376BD0FDEC6A6094579CA3 /* Pods-Health MonitorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC0D567B66218417D9C776B23B5ED0D /* Pods-Health MonitorTests-dummy.m */; };
+		EC98771F36A3474CB7A21A73F53C1F38 /* Pods-Health Monitor-Health MonitorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AAD9DE5F6360C0BEEB1A95DE3B57F /* Pods-Health Monitor-Health MonitorUITests-dummy.m */; };
+		EEDD6674DA165A626528D665A4D1D413 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53539CB11378EFA95019B1B95B99D588 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2430F54277736234329658D34C9F0E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		54CB32A9C1AF806FB2895932DBC27470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		813417E6F741813357D478624BC2830D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAAFD2453111EB9DF6A865A0D925A54;
+			remoteInfo = "Pods-Health Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085D2AA2FB8251D13E1A72BEF4A6BB49 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		0BA40A54CB090BBBCE58E161F7CDD616 /* Pods-Health MonitorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Health MonitorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BB90DC7FDB67E8F470D2D7E130D0D6E /* Pods-Health Monitor-Health MonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Health Monitor-Health MonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0CFF626B21CDDE396F8140057DF19C42 /* Pods-Health Monitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Health Monitor-Info.plist"; sourceTree = "<group>"; };
+		0D75D6EF88FCFB528C141963D1C3E4BE /* Pods-Health Monitor-Health MonitorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Health Monitor-Health MonitorUITests-Info.plist"; sourceTree = "<group>"; };
+		0FCA1BD3EC90E6683933FF5786B5CE4D /* Pods_Health_MonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Health_MonitorTests.framework; path = "Pods-Health MonitorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1537FB6C4B75ED7C1C11A07AA83BDBF6 /* Pods-Health MonitorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Health MonitorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		195062A20BC868D33C7CEDE82207ABAB /* Pods-Health Monitor-Health MonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Health Monitor-Health MonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D925E3AB5619DA3EE8779EF4D592029 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		2686F4D03FE492D1782A986CBA1A6626 /* Pods-Health Monitor-Health MonitorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Health Monitor-Health MonitorUITests-umbrella.h"; sourceTree = "<group>"; };
+		2A35131552FBCE860C40D34F8C7C2C35 /* Pods-Health Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Health Monitor.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33301435CC9038A93C18E6821E7702A5 /* Pods-Health Monitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Health Monitor.modulemap"; sourceTree = "<group>"; };
+		3B10C3F40F8F649DD9A03EC088E176B2 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		42C39AD2E01C134454C61B03FD14DBF9 /* Pods-Health Monitor-Health MonitorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Health Monitor-Health MonitorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A18E106A9E875AF77CA839BF1ED352A /* Pods-Health Monitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Health Monitor-dummy.m"; sourceTree = "<group>"; };
+		53539CB11378EFA95019B1B95B99D588 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		5D4AAD9DE5F6360C0BEEB1A95DE3B57F /* Pods-Health Monitor-Health MonitorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Health Monitor-Health MonitorUITests-dummy.m"; sourceTree = "<group>"; };
+		6386473967CBD2DEC6D232F0CFA77A06 /* Pods-Health Monitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Health Monitor-frameworks.sh"; sourceTree = "<group>"; };
+		63DA2DDE8178D90856A5E1E137DB38CA /* Pods-Health Monitor-Health MonitorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Health Monitor-Health MonitorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6C72D4A04361F90C37C41FBFA0C1B2A2 /* Pods-Health MonitorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Health MonitorTests.modulemap"; sourceTree = "<group>"; };
+		6DAF916BB490647322CF49770B26EE56 /* Pods-Health MonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Health MonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E9B879EB6AF98E7C597F3695B07564C /* Pods-Health MonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Health MonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		75DCF8C2CA9C6D3096E381A6F925F583 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		7CC0D567B66218417D9C776B23B5ED0D /* Pods-Health MonitorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Health MonitorTests-dummy.m"; sourceTree = "<group>"; };
+		7F395F48075E087E856F22367B53F6B4 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		86BD6593927EB41E6503C70E1DABEB7D /* Pods-Health Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Health Monitor.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D5C19911642016D92B4674A6906E98 /* Pods-Health Monitor-Health MonitorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Health Monitor-Health MonitorUITests.modulemap"; sourceTree = "<group>"; };
+		A896A4AD23F86EF253636AF756101CB2 /* Pods_Health_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Health_Monitor.framework; path = "Pods-Health Monitor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD211A75718F8E9211FBB9E05D85AF76 /* Pods-Health Monitor-Health MonitorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Health Monitor-Health MonitorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2CEB351D5AAAF902C307B65C3284902 /* Pods-Health MonitorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Health MonitorTests-umbrella.h"; sourceTree = "<group>"; };
+		BB62026EB3EEB47146C17D4BB40267AF /* Pods-Health Monitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Health Monitor-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD28F38C96F2013E2E87160F5CF0803A /* Pods-Health MonitorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Health MonitorTests-Info.plist"; sourceTree = "<group>"; };
+		C64D30B9E8ECDACF4B149D5B41A3B931 /* Pods-Health Monitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Health Monitor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D91DA5D419D8C76FD2359FD812B589D1 /* Pods-Health Monitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Health Monitor-umbrella.h"; sourceTree = "<group>"; };
+		DBE011292C6FE045167A19B7B5F9AFA7 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF943A9E7F9E1054F28DC4BE134E39BA /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		F180355D5DD32B7B143A331A42DF3B08 /* Pods_Health_Monitor_Health_MonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Health_Monitor_Health_MonitorUITests.framework; path = "Pods-Health Monitor-Health MonitorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BCA004D110091727CF8347CC7B493E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A82A6C31A7F9AEF84ECB8A509C98B62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED4A997549F40F4D4E327E525EF69E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3107645A89697DA1F8BB16A3F7732514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825E9D8E5F211A13033017F111DEB4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4415FF171AB0EA36569A222CDD4F6E73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AB5D272AA7A77CB0032AD13DEC23FF /* Pods-Health MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C72D4A04361F90C37C41FBFA0C1B2A2 /* Pods-Health MonitorTests.modulemap */,
+				1537FB6C4B75ED7C1C11A07AA83BDBF6 /* Pods-Health MonitorTests-acknowledgements.markdown */,
+				0BA40A54CB090BBBCE58E161F7CDD616 /* Pods-Health MonitorTests-acknowledgements.plist */,
+				7CC0D567B66218417D9C776B23B5ED0D /* Pods-Health MonitorTests-dummy.m */,
+				BD28F38C96F2013E2E87160F5CF0803A /* Pods-Health MonitorTests-Info.plist */,
+				B2CEB351D5AAAF902C307B65C3284902 /* Pods-Health MonitorTests-umbrella.h */,
+				6DAF916BB490647322CF49770B26EE56 /* Pods-Health MonitorTests.debug.xcconfig */,
+				6E9B879EB6AF98E7C597F3695B07564C /* Pods-Health MonitorTests.release.xcconfig */,
+			);
+			name = "Pods-Health MonitorTests";
+			path = "Target Support Files/Pods-Health MonitorTests";
+			sourceTree = "<group>";
+		};
+		0F7F719721015D78E967B98F28F48983 /* Pods-Health Monitor-Health MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D5C19911642016D92B4674A6906E98 /* Pods-Health Monitor-Health MonitorUITests.modulemap */,
+				AD211A75718F8E9211FBB9E05D85AF76 /* Pods-Health Monitor-Health MonitorUITests-acknowledgements.markdown */,
+				42C39AD2E01C134454C61B03FD14DBF9 /* Pods-Health Monitor-Health MonitorUITests-acknowledgements.plist */,
+				5D4AAD9DE5F6360C0BEEB1A95DE3B57F /* Pods-Health Monitor-Health MonitorUITests-dummy.m */,
+				63DA2DDE8178D90856A5E1E137DB38CA /* Pods-Health Monitor-Health MonitorUITests-frameworks.sh */,
+				0D75D6EF88FCFB528C141963D1C3E4BE /* Pods-Health Monitor-Health MonitorUITests-Info.plist */,
+				2686F4D03FE492D1782A986CBA1A6626 /* Pods-Health Monitor-Health MonitorUITests-umbrella.h */,
+				195062A20BC868D33C7CEDE82207ABAB /* Pods-Health Monitor-Health MonitorUITests.debug.xcconfig */,
+				0BB90DC7FDB67E8F470D2D7E130D0D6E /* Pods-Health Monitor-Health MonitorUITests.release.xcconfig */,
+			);
+			name = "Pods-Health Monitor-Health MonitorUITests";
+			path = "Target Support Files/Pods-Health Monitor-Health MonitorUITests";
+			sourceTree = "<group>";
+		};
+		2786FAEF36B5444ABE002D2500B3912B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B10C3F40F8F649DD9A03EC088E176B2 /* SwiftyJSON.modulemap */,
+				7F395F48075E087E856F22367B53F6B4 /* SwiftyJSON-dummy.m */,
+				75DCF8C2CA9C6D3096E381A6F925F583 /* SwiftyJSON-Info.plist */,
+				085D2AA2FB8251D13E1A72BEF4A6BB49 /* SwiftyJSON-prefix.pch */,
+				DBE011292C6FE045167A19B7B5F9AFA7 /* SwiftyJSON-umbrella.h */,
+				1D925E3AB5619DA3EE8779EF4D592029 /* SwiftyJSON.debug.xcconfig */,
+				EF943A9E7F9E1054F28DC4BE134E39BA /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		2C6A71D462ED46C2A7F74D962134DC74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				596506AE0A84219CB2F6EDEAF00DB654 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		596506AE0A84219CB2F6EDEAF00DB654 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				53539CB11378EFA95019B1B95B99D588 /* SwiftyJSON.swift */,
+				2786FAEF36B5444ABE002D2500B3912B /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		6F80E1E1E4206D8A072831C6045A29FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8971CA0E2B8B6061794610E8BFDCFC79 /* Pods-Health Monitor */,
+				0F7F719721015D78E967B98F28F48983 /* Pods-Health Monitor-Health MonitorUITests */,
+				04AB5D272AA7A77CB0032AD13DEC23FF /* Pods-Health MonitorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8971CA0E2B8B6061794610E8BFDCFC79 /* Pods-Health Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				33301435CC9038A93C18E6821E7702A5 /* Pods-Health Monitor.modulemap */,
+				C64D30B9E8ECDACF4B149D5B41A3B931 /* Pods-Health Monitor-acknowledgements.markdown */,
+				BB62026EB3EEB47146C17D4BB40267AF /* Pods-Health Monitor-acknowledgements.plist */,
+				4A18E106A9E875AF77CA839BF1ED352A /* Pods-Health Monitor-dummy.m */,
+				6386473967CBD2DEC6D232F0CFA77A06 /* Pods-Health Monitor-frameworks.sh */,
+				0CFF626B21CDDE396F8140057DF19C42 /* Pods-Health Monitor-Info.plist */,
+				D91DA5D419D8C76FD2359FD812B589D1 /* Pods-Health Monitor-umbrella.h */,
+				2A35131552FBCE860C40D34F8C7C2C35 /* Pods-Health Monitor.debug.xcconfig */,
+				86BD6593927EB41E6503C70E1DABEB7D /* Pods-Health Monitor.release.xcconfig */,
+			);
+			name = "Pods-Health Monitor";
+			path = "Target Support Files/Pods-Health Monitor";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C6A71D462ED46C2A7F74D962134DC74 /* Pods */,
+				FEFE1138FE12B70390803C2005F8E742 /* Products */,
+				6F80E1E1E4206D8A072831C6045A29FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEFE1138FE12B70390803C2005F8E742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A896A4AD23F86EF253636AF756101CB2 /* Pods_Health_Monitor.framework */,
+				F180355D5DD32B7B143A331A42DF3B08 /* Pods_Health_Monitor_Health_MonitorUITests.framework */,
+				0FCA1BD3EC90E6683933FF5786B5CE4D /* Pods_Health_MonitorTests.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52E2820FA372B618E85637A6B3F2108 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379555D7D990319B25969C34E26972AC /* Pods-Health MonitorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7860BF5C2D049F89A2195C55CA7415 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FB19561D8E794FFECAA78C62039749 /* Pods-Health Monitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DF2320ADFCA97958026F6F4B1CA8EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4BB292991504434864C7181DF95A68 /* Pods-Health Monitor-Health MonitorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4732900957CE17186E225E1999AA9941 /* Pods-Health MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2014DE7AFC840933A794551E722730 /* Build configuration list for PBXNativeTarget "Pods-Health MonitorTests" */;
+			buildPhases = (
+				B52E2820FA372B618E85637A6B3F2108 /* Headers */,
+				DF5487D3CC1B3C86E87CB2828EC791EE /* Sources */,
+				21BCA004D110091727CF8347CC7B493E /* Frameworks */,
+				AFB146D91FE36A8D4E9707D2997FA82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12790C39186530FC1081976572C18804 /* PBXTargetDependency */,
+			);
+			name = "Pods-Health MonitorTests";
+			productName = "Pods-Health MonitorTests";
+			productReference = 0FCA1BD3EC90E6683933FF5786B5CE4D /* Pods_Health_MonitorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEBE4B28F7F0ADCE15F7C897C44B3801 /* Pods-Health Monitor-Health MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE5B96CF1F316B00DAFFB36BAE7A01E /* Build configuration list for PBXNativeTarget "Pods-Health Monitor-Health MonitorUITests" */;
+			buildPhases = (
+				E1DF2320ADFCA97958026F6F4B1CA8EA /* Headers */,
+				CF957E7A588C49AFCF6887B36BFCBF1A /* Sources */,
+				825E9D8E5F211A13033017F111DEB4BF /* Frameworks */,
+				BC9CDE20C1CBD96A2134BD13B9772BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C31F284499540C2287EE64932EEE18 /* PBXTargetDependency */,
+			);
+			name = "Pods-Health Monitor-Health MonitorUITests";
+			productName = "Pods-Health Monitor-Health MonitorUITests";
+			productReference = F180355D5DD32B7B143A331A42DF3B08 /* Pods_Health_Monitor_Health_MonitorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCAAFD2453111EB9DF6A865A0D925A54 /* Pods-Health Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C1B374D12A27AE1C0FAD7D0A3580EF /* Build configuration list for PBXNativeTarget "Pods-Health Monitor" */;
+			buildPhases = (
+				DE7860BF5C2D049F89A2195C55CA7415 /* Headers */,
+				1D8D89A0047B7E1148BDFD90CF977BD6 /* Sources */,
+				2ED4A997549F40F4D4E327E525EF69E4 /* Frameworks */,
+				1FA555ED462233C308688695A219CACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31210C95BFE4FF89670A45BCCD0D1190 /* PBXTargetDependency */,
+			);
+			name = "Pods-Health Monitor";
+			productName = "Pods-Health Monitor";
+			productReference = A896A4AD23F86EF253636AF756101CB2 /* Pods_Health_Monitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FEFE1138FE12B70390803C2005F8E742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAAFD2453111EB9DF6A865A0D925A54 /* Pods-Health Monitor */,
+				BEBE4B28F7F0ADCE15F7C897C44B3801 /* Pods-Health Monitor-Health MonitorUITests */,
+				4732900957CE17186E225E1999AA9941 /* Pods-Health MonitorTests */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA555ED462233C308688695A219CACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB146D91FE36A8D4E9707D2997FA82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9CDE20C1CBD96A2134BD13B9772BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				EEDD6674DA165A626528D665A4D1D413 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8D89A0047B7E1148BDFD90CF977BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB44962DD5A4D1184F607F349FA1B9B /* Pods-Health Monitor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF957E7A588C49AFCF6887B36BFCBF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98771F36A3474CB7A21A73F53C1F38 /* Pods-Health Monitor-Health MonitorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5487D3CC1B3C86E87CB2828EC791EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1066CFBE376BD0FDEC6A6094579CA3 /* Pods-Health MonitorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12790C39186530FC1081976572C18804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Health Monitor";
+			target = CCAAFD2453111EB9DF6A865A0D925A54 /* Pods-Health Monitor */;
+			targetProxy = 813417E6F741813357D478624BC2830D /* PBXContainerItemProxy */;
+		};
+		31210C95BFE4FF89670A45BCCD0D1190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 54CB32A9C1AF806FB2895932DBC27470 /* PBXContainerItemProxy */;
+		};
+		83C31F284499540C2287EE64932EEE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 2430F54277736234329658D34C9F0E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BD7E8EA09E7A94F32DB53A911A3F2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BD6593927EB41E6503C70E1DABEB7D /* Pods-Health Monitor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Health Monitor/Pods-Health Monitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health Monitor/Pods-Health Monitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0EEE83CBEA4CA9E00446BB8E8FB6F80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A35131552FBCE860C40D34F8C7C2C35 /* Pods-Health Monitor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Health Monitor/Pods-Health Monitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health Monitor/Pods-Health Monitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1326EBFB221706D137520CD0412E7A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAF916BB490647322CF49770B26EE56 /* Pods-Health MonitorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Health MonitorTests/Pods-Health MonitorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health MonitorTests/Pods-Health MonitorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2066F0224C1FE16C899A13FDCE00953C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB90DC7FDB67E8F470D2D7E130D0D6E /* Pods-Health Monitor-Health MonitorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Health Monitor-Health MonitorUITests/Pods-Health Monitor-Health MonitorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health Monitor-Health MonitorUITests/Pods-Health Monitor-Health MonitorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F45F1022B85E56477E540960C3019AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195062A20BC868D33C7CEDE82207ABAB /* Pods-Health Monitor-Health MonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Health Monitor-Health MonitorUITests/Pods-Health Monitor-Health MonitorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health Monitor-Health MonitorUITests/Pods-Health Monitor-Health MonitorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		871319E05C6514218760889AD52170B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF943A9E7F9E1054F28DC4BE134E39BA /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7F77CC5822131607E82D660F7D9B168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D925E3AB5619DA3EE8779EF4D592029 /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CCBF72F693AC118477FA175085CCD019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9B879EB6AF98E7C597F3695B07564C /* Pods-Health MonitorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Health MonitorTests/Pods-Health MonitorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health MonitorTests/Pods-Health MonitorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38C1B374D12A27AE1C0FAD7D0A3580EF /* Build configuration list for PBXNativeTarget "Pods-Health Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE83CBEA4CA9E00446BB8E8FB6F80C /* Debug */,
+				0BD7E8EA09E7A94F32DB53A911A3F2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2014DE7AFC840933A794551E722730 /* Build configuration list for PBXNativeTarget "Pods-Health MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1326EBFB221706D137520CD0412E7A19 /* Debug */,
+				CCBF72F693AC118477FA175085CCD019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F77CC5822131607E82D660F7D9B168 /* Debug */,
+				871319E05C6514218760889AD52170B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE5B96CF1F316B00DAFFB36BAE7A01E /* Build configuration list for PBXNativeTarget "Pods-Health Monitor-Health MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F45F1022B85E56477E540960C3019AE /* Debug */,
+				2066F0224C1FE16C899A13FDCE00953C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
